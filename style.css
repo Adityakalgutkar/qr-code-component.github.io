@@ -24,8 +24,7 @@ img{
     border-radius: 13px;
 }
 .h1{
-    font-family: Outfit;
-    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
     position: absolute;
     bottom:90px;
     font-size: 14px;
@@ -36,12 +35,10 @@ img{
 
 }
 .p{
-    font-family: Outfit;
     position: absolute;
     bottom:20px;
-    font-weight: 400;
     font-size: 15px;
-   
+    font-family: 'Outfit', sans-serif;
     color: hsl(220, 15%, 55%);
 
 
