@@ -30,26 +30,23 @@ body{
 
 }
 h3{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Outfit;
+    font-weight: 700;
     position: absolute;
-    bottom:80px;
-    position: absolute;
+    bottom:90px;
     font-size: 20px;
-    text-align: center;
-    padding-left:10px; 
+    color:hsl(218, 44%, 22%)
 
 }
 p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Outfit;
     position: absolute;
     bottom:20px;
-    font-size: 13px;
-    padding-left:25px ;
-    color: grey;
-
-
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
 }
-@media (max-width:480px){
+@media (max-width:375px){
     .content{
    border-radius: 12px;
     }
