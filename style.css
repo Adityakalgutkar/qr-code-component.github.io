@@ -18,33 +18,33 @@ body{
     text-align: center;
     background-color: #ffffff;
 }
-.content{
-    background-image: url(images/image-qr-code.png);
+img{
     margin:12px;
     height:250px;
-    background-size: contain;
     border-radius: 13px;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-
 }
-h3{
+.h1{
     font-family: Outfit;
     font-weight: 700;
     position: absolute;
     bottom:90px;
-    font-size: 20px;
+    font-size: 14px;
+    margin: 5px;
     color:hsl(218, 44%, 22%)
+   
+ 
 
 }
-p{
+.p{
     font-family: Outfit;
     position: absolute;
     bottom:20px;
     font-weight: 400;
     font-size: 15px;
+   
     color: hsl(220, 15%, 55%);
+
+
 }
 @media (max-width:375px){
     .content{
